@@ -28,6 +28,11 @@ go run main.go -url https://unsplash.com/de/s/fotos/sample -path ./images
 
 This command downloads all images from the specified Unsplash page and saves them to the ./images directory.
 
+Batch Downloading Images:
+```bash
+cat urls.txt | xargs -I % sh -c 'GoImageDownloader --url "%"'
+```
+
 ## Contributing
 Contributions to GoImageDownloader are welcome! Please feel free to submit pull requests or open issues to suggest improvements or report bugs.
 
