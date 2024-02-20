@@ -23,3 +23,4 @@ go.work
 GoImageDownloader
 images
 .DS_Store
+urls.txt
